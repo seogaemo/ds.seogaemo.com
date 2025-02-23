@@ -1,6 +1,10 @@
 import { CustomThemeConfig } from "tailwindcss/types/config";
 
-const typhography: Partial<CustomThemeConfig> = {
+const typography: Partial<CustomThemeConfig> = {
+  fontFamily: {
+    default: "Pretendard",
+    special: "SUITE",
+  },
   fontWeight: {
     default: "500",
     strong: "600",
@@ -73,4 +77,4 @@ const typhography: Partial<CustomThemeConfig> = {
   }),
 };
 
-export default typhography;
+export default typography;

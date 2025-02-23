@@ -1,11 +1,11 @@
 import type { Config } from "tailwindcss";
 
 import colors from "./colors";
-import typhography from "./typhography";
+import typography from "./typography";
 
 const theme: Pick<Config, "theme"> = {
   theme: {
-    ...typhography,
+    ...typography,
     extend: {
       ...colors,
     },
