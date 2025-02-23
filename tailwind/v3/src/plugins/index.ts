@@ -1,5 +1,7 @@
 import { PluginsConfig } from "tailwindcss/types/config";
 
-const plugins: PluginsConfig = [];
+import { fonts } from "./fonts";
+
+const plugins: PluginsConfig = [fonts];
 
 export default plugins;
