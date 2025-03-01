@@ -5,7 +5,7 @@ import plugins from "./plugins";
 
 const config: Omit<Config, "content"> = {
   ...theme,
-  ...plugins,
+  plugins: plugins,
 };
 
 export default config;
