@@ -4,16 +4,16 @@ import { chip } from "./chip";
 
 const colors: Pick<CustomThemeConfig, "colors"> = {
   colors: {
-    primary: chip.gray[100],
-    secondary: chip.gray[300],
-    tertiary: chip.gray[400],
-    quaternary: chip.gray[500],
-    unselected: chip.gray[600],
-    unable: chip.gray[700],
-    accent: chip.blue[500],
-    positive: chip.green[500],
-    negative: chip.red[500],
-    warning: chip.yellow[500],
+    primary: "var(--content-primary)",
+    secondary: "var(--content-secondary)",
+    tertiary: "var(--content-tertiary)",
+    quaternary: "var(--content-quaternary)",
+    unselected: "var(--content-unselected)",
+    unable: "var(--content-unable)",
+    accent: "var(--content-accent)",
+    positive: "var(--content-positive)",
+    negative: "var(--content-negative)",
+    warning: "var(--content-warning)",
 
     ...chip,
   },

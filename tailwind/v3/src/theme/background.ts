@@ -1,53 +1,48 @@
 import { CustomThemeConfig } from "tailwindcss/types/config";
 
 const backgroundColor: Partial<CustomThemeConfig> = {
-  backgroundColor: ({ theme }) => ({
+  backgroundColor: {
     base: {
-      DEFAULT: theme("colors.black"),
-      pressed: theme("colors.gray.900"),
+      DEFAULT: "var(--bg-base)",
+      pressed: "var(--bg-base-pressed)",
       elevated: {
-        DEFAULT: theme("colors.gray.900"),
-        pressed: theme("colors.gray.800"),
+        DEFAULT: "var(--bg-base-elevated)",
+        pressed: "var(--bg-base-elevated-pressed)",
       },
-      border: theme("colors.gray.800"),
     },
     accent: {
-      DEFAULT: theme("colors.blue.500"),
-      pressed: theme("colors.blue.400"),
+      DEFAULT: "var(--bg-accent)",
+      pressed: "var(--bg-accent-pressed)",
       elevated: {
-        DEFAULT: theme("colors.blue.900"),
-        pressed: theme("colors.blue.800"),
+        DEFAULT: "var(--bg-accent-elevated)",
+        pressed: "var(--bg-accent-elevated-pressed)",
       },
-      border: theme("colors.blue.400"),
     },
     positive: {
-      DEFAULT: theme("colors.green.500"),
-      pressed: theme("colors.green.400"),
+      DEFAULT: "var(--bg-positive)",
+      pressed: "var(--bg-positive-pressed)",
       elevated: {
-        DEFAULT: theme("colors.green.900"),
-        pressed: theme("colors.green.800"),
+        DEFAULT: "var(--bg-positive-elevated)",
+        pressed: "var(--bg-positive-elevated-pressed)",
       },
-      border: theme("colors.green.600"),
     },
     negative: {
-      DEFAULT: theme("colors.red.500"),
-      pressed: theme("colors.red.400"),
+      DEFAULT: "var(--bg-negative)",
+      pressed: "var(--bg-negative-pressed)",
       elevated: {
-        DEFAULT: theme("colors.red.900"),
-        pressed: theme("colors.red.800"),
+        DEFAULT: "var(--bg-negative-elevated)",
+        pressed: "var(--bg-negative-elevated-pressed)",
       },
-      border: theme("colors.red.600"),
     },
     warning: {
-      DEFAULT: theme("colors.yellow.500"),
-      hover: theme("colors.yellow.400"),
+      DEFAULT: "var(--bg-warning)",
+      hover: "var(--bg-warning-hover)",
       elevated: {
-        DEFAULT: theme("colors.yellow.900"),
-        pressed: theme("colors.yellow.800"),
+        DEFAULT: "var(--bg-warning-elevated)",
+        pressed: "var(--bg-warning-elevated-pressed)",
       },
-      border: theme("colors.yellow.600"),
     },
-  }),
+  },
 };
 
 export default backgroundColor;
