@@ -10,10 +10,12 @@ const colors: Pick<CustomThemeConfig, "colors"> = {
     quaternary: "var(--content-quaternary)",
     unselected: "var(--content-unselected)",
     unable: "var(--content-unable)",
-    accent: "var(--content-accent)",
-    positive: "var(--content-positive)",
-    negative: "var(--content-negative)",
-    warning: "var(--content-warning)",
+    content: {
+      accent: "var(--content-accent)",
+      positive: "var(--content-positive)",
+      negative: "var(--content-negative)",
+      warning: "var(--content-warning)",
+    },
 
     ...chip,
   },
