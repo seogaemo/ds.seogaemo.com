@@ -9,8 +9,10 @@ const theme: Pick<Config, "theme"> = {
   theme: {
     ...colors,
     ...typography,
-    ...background,
-    ...border,
+    extend: {
+      ...background,
+      ...border,
+    },
   },
 };
 
