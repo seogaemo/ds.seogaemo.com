@@ -1,6 +1,6 @@
 {
   "name": "@seogaemo/ds-tailwind",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Seogaemo Design System - Tailwind Preset",
   "main": "./src/index.ts",
   "keywords": [],

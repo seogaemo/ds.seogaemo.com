@@ -2,7 +2,7 @@ export const chip = {
   white: "rgba(255, 255, 255, 1)",
   black: "rgba(0, 0, 0, 1)",
   dim: {
-    default: "rgba(0, 0, 0, 0.4)",
+    DEFAULT: "rgba(0, 0, 0, 0.4)",
     accent: "rgba(0, 0, 0, 0.7)",
   },
   gray: {
