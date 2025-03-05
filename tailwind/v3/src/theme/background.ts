@@ -2,6 +2,9 @@ import { CustomThemeConfig } from "tailwindcss/types/config";
 
 const backgroundColor: Partial<CustomThemeConfig> = {
   backgroundColor: {
+    inherit: "inherit",
+    current: "currentColor",
+    transparent: "transparent",
     base: {
       DEFAULT: "var(--bg-base)",
       pressed: "var(--bg-base-pressed)",
