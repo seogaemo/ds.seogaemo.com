@@ -7,6 +7,6 @@ export const fonts = plugin((api) =>
   api.addBase([
     pretendard as any,
     suite as any,
-    { "*": { fontFamily: "Pretendard" } },
+    { "*": { fontFamily: "'Pretendard', sans-serif" } },
   ])
 );
