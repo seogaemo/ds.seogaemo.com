@@ -2,9 +2,12 @@
   "name": "@seogaemo/ds-tailwind",
   "version": "1.0.14",
   "description": "Seogaemo Design System - Tailwind Preset",
-  "main": "./src/index.ts",
+  "main": "./dist/index",
   "keywords": [],
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^5.7.3"
   },
