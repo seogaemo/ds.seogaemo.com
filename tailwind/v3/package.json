@@ -6,7 +6,8 @@
   "keywords": [],
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "postpublish": "pnpm build"
   },
   "devDependencies": {
     "typescript": "^5.7.3"
