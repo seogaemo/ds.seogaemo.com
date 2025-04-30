@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "postpublish": "pnpm build"
+    "prepublish": "pnpm build"
   },
   "devDependencies": {
     "typescript": "^5.7.3"
