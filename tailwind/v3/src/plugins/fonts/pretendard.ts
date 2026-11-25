@@ -1,5 +1,5 @@
 const base =
-  "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static";
+  "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static";
 
 const family = "Pretendard";
 
